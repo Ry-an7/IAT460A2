@@ -16,7 +16,7 @@ Ensures the protagonist and antagonist remain consistent throughout the story.
 
 ## **How It Works**
 
-Grammar Definition:
+**Grammar Definition**:
 
 The script defines a dictionary (grammar) containing different parts of the story.
 
@@ -24,19 +24,19 @@ Each key represents a part of the story (e.g., Intro, Body, Climax).
 
 The values are lists of possible sentence structures, some containing placeholders ({Protagonist} and {Antagonist}) for dynamically inserting names.
 
-Random Selection:
+**Random Selection**:
 
 A protagonist and antagonist are randomly selected from predefined lists.
 
 The script replaces {Protagonist} and {Antagonist} placeholders with these values.
 
-Recursive Sentence Generation:
+**Recursive Sentence Generation**:
 
 The generate_sentence function constructs the story by recursively replacing grammar rules with corresponding phrases.
 
 The function ensures that major story components appear in a structured manner.
 
-Story Output Formatting:
+**Story Output Formatting:**
 
 The generated story is printed in a structured format with clear paragraph separations.
 
